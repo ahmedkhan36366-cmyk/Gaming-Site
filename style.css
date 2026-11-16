@@ -1,0 +1,263 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    rgb(107, 196, 231),
+    rgb(22, 93, 151),
+    rgb(172, 172, 226)
+  );
+}
+
+.notification {
+  position: relative;
+  margin-right: 10px;
+
+}
+.messages {
+  position: relative;
+}
+
+.Cart {
+  position: relative;
+  margin-left: 15px;
+}
+
+.sticky-bar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: rgb(42, 140, 165);
+  padding: 8px 20px;
+  z-index: 1000;
+}
+
+.shop {
+  position: absolute;
+  top: -3px;
+  right: -6px;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 300%;
+  background-color: red;
+  color: black;
+  padding: 2px 5px;
+}
+.number {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  padding: 2px 4px;
+  font-size: 12px;
+  font-weight: bold;
+   border-radius: 500%;
+  background-color: red;
+  color: black;
+  
+}
+
+.nav {
+  margin: 5px;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+}
+
+h1 {
+  color: darkblue;
+  margin: 5px 10px;
+}
+
+.nav {
+  gap: 30px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: large;
+  letter-spacing: 1px;
+  margin-left: -150px;
+}
+
+.msg {
+  position: absolute;
+  top: 15px;
+  right: 52px;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 280%;
+  background-color: red;
+  color: black;
+  padding: 2px 5px;
+  margin-left: 20px;
+}
+
+.nav a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: lightblue;
+}
+
+.hj {
+ 
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  background-color: lightseagreen;
+}
+
+a {
+  text-align: right;
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0 4px 10px rgb(37, 170, 137);
+  z-index: 1000;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5d;
+}
+
+.page-title {
+  text-align: center;
+  color: darkblue;
+  margin: 30px 0 10px;
+}
+
+.builds-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+}
+
+.pc-card h2 {
+  color: darkblue;
+  font-size: 20px;
+  margin: 15px 0 10px;
+}
+
+.pc-card ul {
+  padding-left: 18px;
+  line-height: 1.7;
+  font-size: 14px;
+  color: #333;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e63946;
+  margin-top: auto;
+}
+
+.buy-btn {
+  display: block;
+  text-align: center;
+  background-color: #25d366;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.buy-btn:hover {
+  background-color: #1ebe5d;
+}
+
+div h1 {
+  text-align: left;
+}
+
+.container,
+.builds-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+}
+
+.card,
+.pc-card {
+  display: flex;
+  flex-direction: column;
+  background-color: lightseagreen;
+  width: 320px;
+  height: 800px 10px ;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+} 
+
+.Feature{
+   display: flex;
+  flex-direction: column;
+  background-color: lightseagreen;
+  width: 500px;
+  height: 1020px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+}
+
+.card img,
+.pc-card img {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto 1px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color:  lightseagreen;
+}
+
+.card h2,
+.pc-card h2 {
+  color: darkblue;
+  font-size: 20px;
+  margin: 15px 0 10px;
+}
+
+.card ul,
+.pc-card ul {
+  padding-left: 18px;
+  line-height: 1.7;
+  font-size: 14px;
+  color: #333;
+}
+
+#head a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+#head a:hover {
+  color: lightblue;
+}
