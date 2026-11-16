@@ -44,7 +44,7 @@ body {
 
 @media (max-width: 768px) {
     .sticky-bar {
-        flex-direction: column;   /* Mobile par teeno cheezein ek ke neeche ek aayengi */
+        flex-direction: column;   
         align-items: center;
         padding: 10px;
         gap: 8px;
@@ -214,10 +214,8 @@ div h1 {
 
 .container,
 .builds-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 25px;
   padding: 20px;
 }
@@ -297,7 +295,7 @@ img {
 .pc-card {
   flex: 1 1 280px;
   width: 100%;
-  max-width: 320px;
+  max-width: none;
   min-width: 0;
   height: auto;
 }
@@ -364,12 +362,22 @@ img {
     padding: 12px;
   }
 
+  .container,
+  .builds-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .Feature {
     padding: 16px;
   }
 }
 
 @media (max-width: 600px) {
+  .container,
+  .builds-container {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .card,
   .pc-card {
     flex-basis: 100%;
